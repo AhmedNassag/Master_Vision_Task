@@ -1,0 +1,121 @@
+<?php
+
+return [
+    //General
+    'Welcome Back'    => 'Welcome Back',
+    'Register'        => 'Register',
+    'Login'           => 'Login',
+    'Logout'          => 'Logout',
+    'Email'           => 'Email',
+    'Mobile'          => 'Mobile',
+    'Password'        => 'Password',
+    'Email Or Mobile' => 'Email Or Mobile',
+    'Dashboard'       => 'Dashboard',
+    'Home'            => 'Home',
+    'Index'           => 'Index',
+    'Arabic'          => 'Arabic',
+    'English'         => 'English',
+    'View Details'    => 'View Details',
+
+    //Main
+    'In Arabic'                             => 'In Arabic',
+    'In English'                            => 'In English',
+    'Add'                                   => 'Add',
+    'Edit'                                  => 'Edit',
+    'Delete'                                => 'Delete',
+    'Archive'                               => 'Archive',
+    'Restore'                               => 'Restore',
+    'Show'                                  => 'Show',
+    'Confirm'                               => 'Confirm',
+    'Close'                                 => 'Close',
+    'Download'                              => 'Download',
+    'Print'                                 => 'Print',
+    'Delete Selected'                       => 'Delete Selected',
+    'Search'                                => 'Search',
+    'Actions'                               => 'Actions',
+    'Looks Good'                            => 'Looks Good',
+    'Error Here'                            => 'Error Here',
+    'From Date'                             => 'From Date',
+    'To Date'                               => 'To Date',
+    'All'                                   => 'All',
+    'Without'                               => 'Without',
+    'No Data Founded'                       => 'No Data Founded',
+    'Are You Sure Of Deleting..??'          => 'Are You Sure Of Deleting..??',
+    'Are You Sure Of Multiple Deleting..??' => 'Are You Sure Of Multiple Deleting..??',
+    'Are You Sure Of Archiving..??'         => 'Are You Sure Of Archiving..??',
+    'Are You Sure Of Restoring..??'         => 'Are You Sure Of Restoring..??',
+    'Enter Search Key Of'                   => 'Enter Search Key Of',
+    
+    //Notifications
+    'Notifications'        => 'Notifications',
+    'Mark All Read'        => 'Mark All Read',
+    'Unread Notifications' => 'Unread Notifications',
+    'VIEW ALL'             => 'VIEW ALL',
+    'No Notifications'     => 'No Notifications',
+    
+    //User & Role
+    'Users'      => 'Users',
+    'User'       => 'User',
+    'Status'     => 'Status',
+    'Role'       => 'Role',
+    'Roles'      => 'Roles',
+    'Back'       => 'Back',
+    'Active'     => 'Active',
+    'InActive'   => 'InActive',
+    'And'        => 'And',
+    'User Roles' => 'User Roles',
+
+    //Customer
+    'Customer'       => 'Customer',
+    'Customers'      => 'Customers',
+    'Company'        => 'Company',
+    'Contact Person' => 'Contact Person',
+    'Phone'          => 'Phone',
+    'Address'        => 'Address',
+    'City'           => 'City',
+    'State'          => 'State',
+    'Postal Code'    => 'Postal Code',
+    'Country'        => 'Country',
+    
+    //Product
+    'Product'    => 'Product',
+    'Products'   => 'Products',
+    'Name'       => 'Name',
+    'Details'    => 'Details',
+    'Price'      => 'Price',
+    'Photo'      => 'Photo',
+    'Quantities' => 'Quantities',
+
+    //Sale
+    'Sale'         => 'Order',
+    'Sales'        => 'Orders',
+    'Date'         => 'Date',
+    'Quantity'     => 'Quantity',
+    'Unit Price'   => 'Unit Price',
+    'Sub Total'    => 'Sub Total',
+    'Total'        => 'Total',
+    'Discount'     => 'Discount',
+    'Tax'          => 'Tax',
+    'Grand Total'  => 'Grand Total',
+    'Notes'        => 'Notes',
+    'Item'         => 'Item',
+    'Items'        => 'Items',
+    'Choose'       => 'Choose',
+    'Add New Item' => 'Add New Item',
+
+    //Category
+    'Category'        => 'Category',
+    'Categories'      => 'Categories',
+    'Parent Category' => 'Parent Category',
+
+    //Shop
+    'Shop'  => 'Shop',
+    'Shops' => 'Shops',
+
+    //ShopProducts
+    'ShopProducts'               => 'Shop Products',
+    'ShopProduct'                => 'Shop Product',
+    'Quantity'                   => 'Quantity',
+    'Add Multi Products To Shop' => 'Add Multi Products To Shop',
+    'Add Product To Multi Shops' => 'Add Product To Multi Shops',
+];

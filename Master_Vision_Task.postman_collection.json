@@ -1,0 +1,118 @@
+{
+	"info": {
+		"_postman_id": "879b8dd8-bcd1-4a3e-a70a-9894f3c79cd5",
+		"name": "Master_Vision_Task",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "latestShopProducts (you can filter by category_id)",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": []
+				},
+				"url": {
+					"raw": "{{url}}/api/latest-shop-products?category_id=1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"latest-shop-products"
+					],
+					"query": [
+						{
+							"key": "category_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shopProductsUnderCategoryOrChild",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{url}}/api/shop-products-under-category-or-child?category_id=1",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"shop-products-under-category-or-child"
+					],
+					"query": [
+						{
+							"key": "category_id",
+							"value": "1"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addOrder",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"date\" : \"30-12-2023\",\r\n    \"notes\" : \"notes\",\r\n    \"customer_id\" : 1,\r\n    \"details\" : [\r\n        {\r\n            \"quantity\" : 1,\r\n            \"shop_id\" : 1,\r\n            \"product_id\" : 1\r\n        },\r\n        {\r\n            \"quantity\" : 2,\r\n            \"shop_id\" : 2,\r\n            \"product_id\" : 2\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{url}}/api/add-order",
+					"host": [
+						"{{url}}"
+					],
+					"path": [
+						"api",
+						"add-order"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "url",
+			"value": "http://mastervisiontask.com",
+			"type": "default"
+		}
+	]
+}
